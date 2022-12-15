@@ -18,7 +18,9 @@ elif x < 0 and y < 0:
     print('this point is in the 3d quarter')
 elif x > 0 and y < 0:
     print('this point is in the 4th quarter')
+elif x == 0:
+    print('the point is on the axis Y')
 else:
-    print('the point is on the axis')
+    print('the point is on the axis X')
 
 
