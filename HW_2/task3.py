@@ -21,11 +21,9 @@ index_list = index_string.split( )
 for i in range(len(index_list)):
     index_list[i] = int(index_list[i])
 
-print()
-print('list of values in range [-N, N]: \n', list)
-print()
-print('list of users indices: \n', index_list)
-print()
+print('\nlist of values in range [-N, N]: \n', list, '\n')
+print('list of users indices: \n', index_list, '\n')
+
 
 mult = 1
 for i in index_list:
@@ -34,5 +32,5 @@ for i in index_list:
        print(f'({list[i]})', end = ' * ') 
     else:
         print(f'({list[i]})', end = ' = ')
-print(mult)
+print(mult, '\n')
 
