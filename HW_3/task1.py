@@ -4,6 +4,8 @@
 # Пример:
 # [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
+import input_int_list
+
 def sum_val_odd_ind(user_list):
     sum = 0
     for i in range(1, len(user_list), 2):
@@ -11,11 +13,8 @@ def sum_val_odd_ind(user_list):
     
     return sum
 
-user_values = input('enter the elements of the list separated by a space:\n')
-user_list = user_values.split( )
-for i in range(len(user_list)):
-    user_list[i] = int(user_list[i])
-
+user_list = input_int_list.input_list()
 print('sum of values on odd indices is: ', sum_val_odd_ind(user_list))
+
 
 

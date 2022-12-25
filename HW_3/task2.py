@@ -6,6 +6,7 @@
 # [2, 3, 5, 6] => [12, 15]
 
 import math
+import input_int_list
 
 def product_pairs(user_list):
     product = []
@@ -13,10 +14,5 @@ def product_pairs(user_list):
         product.append(user_list[i] * user_list[-i - 1])
     return product
 
-user_values = input('enter the elements of the list separated by a space:\n')
-user_list = user_values.split( )
-for i in range(len(user_list)):
-    user_list[i] = int(user_list[i])
-
-print('products of pairs of numbers are: ',product_pairs(user_list))
-
+user_list = input_int_list.input_list()
+print('products of pairs of numbers are: ', product_pairs(user_list))
