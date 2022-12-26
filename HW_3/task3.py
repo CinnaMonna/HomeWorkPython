@@ -26,6 +26,5 @@ def difference_fract_parts(user_list):
 
     return(round(max(fract) - min(fract), 2))
    
-
 user_list = input_float_list.input_list()
 print('difference of max and min fractional parts of numbers is: ', difference_fract_parts(user_list))
