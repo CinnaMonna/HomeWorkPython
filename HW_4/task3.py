@@ -3,15 +3,7 @@
 # список коэффициентов (значения от 0 до 100) многочлена 
 # и вывести многочлен степени k.
 
-from random import randint
-
-def random_coef_list(size):
-    coef_list = []
-    for i in range(size):
-        coef_list.append(randint(0, 100))   
-
-    return coef_list
-
+import randint_list
 
 def polynom(power, coef_list):
     coef_list_rev = coef_list[::-1]
@@ -21,8 +13,7 @@ def polynom(power, coef_list):
 
     return polynom
 
-
 pow = int(input('enter the highest power of polynomial: '))
-coef_list = random_coef_list(pow + 1)
+coef_list = randint_list.random_list(pow + 1, 0, 100)
 print('list of random coefficients:\n', coef_list)
 print('polynomial:\n', polynom(pow, coef_list), '\n')
