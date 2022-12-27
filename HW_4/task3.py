@@ -15,12 +15,9 @@ def random_coef_list(size):
 
 def polynom(power, coef_list):
     coef_list_rev = coef_list[::-1]
-    polynom = str(coef_list_rev[0])
-    for i in range(1, power + 1):
-        if i == 1:
-            polynom = str(coef_list_rev[i]) + 'x + ' + polynom
-        else:
-            polynom = str(coef_list_rev[i]) + 'x^' + str(i) + ' + ' + polynom  
+    polynom = str(coef_list_rev[1]) + 'x + ' + str(coef_list_rev[0])
+    for i in range(2, power + 1):
+        polynom = str(coef_list_rev[i]) + 'x^' + str(i) + ' + ' + polynom  
 
     return polynom
 
