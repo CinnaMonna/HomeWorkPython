@@ -18,14 +18,14 @@ max_taken = 28
 winner_hum = False
 print('На столе лежит 120 конфет.')
 print('В свой ход возьмите от 1 до 28 конфет включительно')
-print('Победитель - тот, кто оставил на столе 0 конфет.')
+print('Победитель - тот, кто оставил на столе 0 конфет.', '\n')
 
 while count != 0:
     win_step = count % (max_taken + 1)
     hum = int(input('Ваш ход: '))
 
     if hum <= 0 or hum > 28:
-        print('Неверный ход, прочитайте условие еще раз')
+        print('Неверный ход, прочитайте условие еще раз', '\n')
         continue
     elif hum == win_step:
         count -= hum
