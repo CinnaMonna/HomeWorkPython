@@ -1,0 +1,9 @@
+
+2023-01-23 04:17:07.818882: incorrect input: -
+2023-01-23 04:17:25.420082: new data input: ('Ivanov', 'Alex', '78123', 'family')
+2023-01-23 04:17:30.956062: console output: all data
+2023-01-23 04:18:08.820239: new data input: ('Petrova', 'Anna', '81369', 'work')
+2023-01-23 04:18:32.244164: new data input: ('Pavlova', 'Arina', '51324', 'sport')
+2023-01-23 04:18:35.923598: incorrect input: -
+2023-01-23 04:18:38.845373: console output: all data
+2023-01-23 04:19:01.220095: new data input: ('Egorov', 'Max', '81243', 'doctor')

@@ -1,4 +1,5 @@
-Ivanov, Alex, 84125, family
-Petrova, Anna, 16748, work
-Pavlova, Arina, 48137, sport
-Egorov, Max, 81543, doctor
+
+Ivanov, Alex, 78123, family
+Petrova, Anna, 81369, work
+Pavlova, Arina, 51324, sport
+Egorov, Max, 81243, doctor

@@ -1,21 +1,21 @@
 
 Ivanov
 Alex
-84125
+78123
 family
 ---------------
 Petrova
 Anna
-16748
+81369
 work
 ---------------
 Pavlova
 Arina
-48137
+51324
 sport
 ---------------
 Egorov
 Max
-81543
+81243
 doctor
 ---------------

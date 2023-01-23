@@ -1,4 +1,4 @@
-from view import (view_data as data, 
+from view import (view_data, 
                 get_choice, 
                 get_new_data as new, 
                 incorrect_input as incorrect)
@@ -18,8 +18,8 @@ def process_data():
         choice = get_choice()
     
     if choice == 1:
-        print(out())
-        logger('-', 'console output')
+        view_data(out())
+        logger('all data', 'console output')
     else: 
         new_entry = new()
         add_1(new_entry)
