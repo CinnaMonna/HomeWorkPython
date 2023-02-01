@@ -7,7 +7,7 @@
 from telegram import Bot, Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-token = '5998464265:AAGUCyzm_CFJI-j5ceE4KjAZTaJU8OYk7vc'
+token = ''
 
 updater = Updater(token)
 bot = Bot(token)
